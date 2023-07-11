@@ -24,7 +24,7 @@ function geocoding(name, address) {
         query: Addr_val
     }, function(status, response) {
         if (status !== naver.maps.Service.Status.OK) {
-            console.log(address)
+            console.log(status)
             return alert('Something wrong!');
         }
 
