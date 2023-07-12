@@ -13,28 +13,3 @@
 .top-bars__title {
   width: 50%;
 }
-
-.top-bars__menus {
-  width: 50%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.top-bars__menus span {
-  cursor: pointer;
-  margin-left: 20px;
-}
-
-.top-bars__choice {
-  position: relative;
-}
-
-.top-bars__choice .new {
-  position: absolute;
-  right: -7px;
-  top: -8px;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: red;
-}
